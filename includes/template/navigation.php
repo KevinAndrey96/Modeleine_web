@@ -139,12 +139,7 @@ $test = $_SERVER["REQUEST_URI"];
                 </a>
                 <ul class="dropdown-menu">
 					<li class="m_2"><a href="<?php echo $test; ?>?lang=english">English</a></li>
-					<li class="m_2"><a href="<?php echo $test; ?>?lang=french">French</a></li>
-					<li class="m_2"><a href="<?php echo $test; ?>?lang=german">German</a></li>	
-					<li class="m_2"><a href="<?php echo $test; ?>?lang=portuguese">Portuguese</a></li>
 					<li class="m_2"><a href="<?php echo $test; ?>?lang=spanish">Spanish</a></li>
-					<li class="m_2"><a href="<?php echo $test; ?>?lang=russian">Russian</a></li>	
-					<li class="m_2"><a href="<?php echo $test; ?>?lang=chinese">Chinese</a></li>	
         		</ul>
               </li>
 
