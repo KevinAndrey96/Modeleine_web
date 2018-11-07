@@ -278,7 +278,7 @@ $test = $_SERVER["REQUEST_URI"];
 	            <?php echo $lang['services']; ?>
 	          </a>
 	        </li>
-	        <li class="header-nav__navigation-item <?php echo $active = ($basename == 'about') ? ' active' : ''; ?>">
+	        <!--<li class="header-nav__navigation-item <?php echo $active = ($basename == 'about') ? ' active' : ''; ?>">
 	          <a href="about.php" class="header-nav__navigation-link ">
 	            <?php echo $lang['about']; ?>
 	          </a>
@@ -297,7 +297,7 @@ $test = $_SERVER["REQUEST_URI"];
 	          <a href="contact.php" class="header-nav__navigation-link ">
 	            <?php echo $lang['contact']; ?>
 	          </a>
-	        </li>
+	        </li>-->
 	        
 		 <?php
 		 //Start new Admin object
