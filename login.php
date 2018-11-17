@@ -159,9 +159,12 @@ $test = $_SERVER["REQUEST_URI"];
 	      </button>
 	      <div class="header-nav__logo">
 	        <a class="header-nav__logo-link navbar-brand" href="index.php">
-	       	<?php if($use_icon === '1'): ?>
+	       	<!--<?php if($use_icon === '1'): ?>
 	       		<i class="fa <?php echo $site_icon; ?>"></i>
-	       	<?php endif; ?>  <?php echo escape($title); ?></a>
+	       	<?php endif; ?> 
+	       	<?php echo escape($title); ?>-->
+	       		<img src="assets/img/logo.png" style="height: 45px; " class="img img-responsive">
+	       	</a>
 	      </div>
 	    </div>
 	    <div class="collapse navbar-collapse navbar-main navbar-right">
@@ -172,22 +175,22 @@ $test = $_SERVER["REQUEST_URI"];
 	            <?php echo $lang['home']; ?>
 	          </a>
 	        </li>
-	        <li class="header-nav__navigation-item <?php echo $active = ($basename == 'jobs') ? ' active' : ''; echo $active = ($editname == 'jobpost.php?title='. Input::get('title').'') ? ' active' : '';?>">
+	        <!--<li class="header-nav__navigation-item <?php echo $active = ($basename == 'jobs') ? ' active' : ''; echo $active = ($editname == 'jobpost.php?title='. Input::get('title').'') ? ' active' : '';?>">
 	          <a href="jobs.php" class="header-nav__navigation-link ">
 	            <?php echo $lang['jobs']; ?>
 	          </a>
-	        </li>
-	        <li class="header-nav__navigation-item <?php echo $active = ($basename == 'services') ? ' active' : ''; echo $active = ($editname == 'freelancer.php?a='. Input::get('a').'&id='. Input::get('id').'') ? ' active' : ''; ?>">
+	        </li>-->
+	        <!--<li class="header-nav__navigation-item <?php echo $active = ($basename == 'services') ? ' active' : ''; echo $active = ($editname == 'freelancer.php?a='. Input::get('a').'&id='. Input::get('id').'') ? ' active' : ''; ?>">
 	          <a href="services.php" class="header-nav__navigation-link ">
 	            <?php echo $lang['services']; ?>
 	          </a>
-	        </li>
-	        <li class="header-nav__navigation-item <?php echo $active = ($basename == 'about') ? ' active' : ''; ?>">
+	        </li>-->
+	        <!--<li class="header-nav__navigation-item <?php echo $active = ($basename == 'about') ? ' active' : ''; ?>">
 	          <a href="about.php" class="header-nav__navigation-link ">
 	            <?php echo $lang['about']; ?>
 	          </a>
-	        </li>
-	        <li class="header-nav__navigation-item <?php echo $active = ($basename == 'how') ? ' active' : ''; ?>">
+	        </li>-->
+	        <!--<li class="header-nav__navigation-item <?php echo $active = ($basename == 'how') ? ' active' : ''; ?>">
 	          <a href="how.php" class="header-nav__navigation-link ">
 	            <?php echo $lang['how']; ?> <?php echo $lang['it']; ?> <?php echo $lang['works']; ?>
 	          </a>
@@ -196,7 +199,7 @@ $test = $_SERVER["REQUEST_URI"];
 	          <a href="faq.php" class="header-nav__navigation-link ">
 	            <?php echo $lang['faq']; ?>
 	          </a>
-	        </li>
+	        </li>-->
 	        <li class="header-nav__navigation-item <?php echo $active = ($basename == 'contact') ? ' active' : ''; ?>">
 	          <a href="contact.php" class="header-nav__navigation-link ">
 	            <?php echo $lang['contact']; ?>
@@ -273,12 +276,12 @@ $test = $_SERVER["REQUEST_URI"];
 	          <a class="header-nav__navigation-link" href="login.php"><?php echo $lang['login']; ?></a>
 	        </li>
 	        <li class="header-nav__navigation-item <?php echo $active = ($basename == 'register') ? ' active' : ''; ?>">
-	          <a class="header-nav__navigation-link header-nav__navigation-link--outline" href="register.php"><?php echo $lang['signup']; ?> <?php echo $lang['for']; ?> <?php echo $lang['free']; ?></a>
+	          <a class="header-nav__navigation-link header-nav__navigation-link--outline" href="register.php"><?php echo $lang['signup']; ?> </a>
 	        </li>
 		 <?php } ?>              		 	
-
+<!--
               <li class="dropdown user user-menu">
-                <!-- Menu Toggle Button -->
+                
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   	<?php echo $lang['languages']; ?>
                 </a>
@@ -292,7 +295,7 @@ $test = $_SERVER["REQUEST_URI"];
 					<li class="m_2"><a href="<?php echo $test; ?>?lang=chinese">Chinese</a></li>	
         		</ul>
               </li>
-
+-->
 
               	        
 	      </ul>
@@ -370,7 +373,7 @@ $test = $_SERVER["REQUEST_URI"];
             	
 
             <!-- List group -->
-            <ul class="list-group">
+            <ul class="list-group" style="display: none;">
              <li class="list-group-item">
               <div class="material-switch pull-center">
 	           <span class="pull-left"><?php echo $lang['freelancer']; ?></span>

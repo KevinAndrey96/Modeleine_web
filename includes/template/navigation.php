@@ -32,11 +32,11 @@ $test = $_SERVER["REQUEST_URI"];
 	            <?php echo $lang['home']; ?>
 	          </a>
 	        </li>
-	        <li class="header-nav__navigation-item <?php echo $active = ($basename == 'jobs') ? ' active' : ''; echo $active = ($editname == 'jobpost.php?title='. Input::get('title').'') ? ' active' : '';?>">
+	        <!--<li class="header-nav__navigation-item <?php echo $active = ($basename == 'jobs') ? ' active' : ''; echo $active = ($editname == 'jobpost.php?title='. Input::get('title').'') ? ' active' : '';?>">
 	          <a href="jobs.php" class="header-nav__navigation-link ">
 	            <?php echo $lang['jobs']; ?>
 	          </a>
-	        </li>
+	        </li>-->
 	        <li class="header-nav__navigation-item <?php echo $active = ($basename == 'services') ? ' active' : ''; echo $active = ($editname == 'freelancer.php?a='. Input::get('a').'&id='. Input::get('id').'') ? ' active' : ''; echo $active = ($editname == 'searchpage.php?searchterm='. Input::get('searchterm').'') ? ' active' : ''; ?>">
 	          <a href="services.php" class="header-nav__navigation-link ">
 	            <?php echo $lang['services']; ?>
@@ -123,17 +123,22 @@ $test = $_SERVER["REQUEST_URI"];
 						<li class="m_2"><a href="Model/logout.php"><i class="fa fa-lock"></i> <?php echo $lang['logout']; ?></a></li>	
         		</ul>
               </li>
-		<?php } else { ?>		 		        
+		<?php } else { ?>
+			<li class="header-nav__navigation-item <?php echo $active = ($basename == 'contact') ? ' active' : ''; ?>">
+	          <a href="contact.php" class="header-nav__navigation-link ">
+	            <?php echo $lang['contact']; ?>
+	          </a>
+	        </li>
 	        <li class="header-nav__navigation-item">
 	          <a class="header-nav__navigation-link" href="login.php"><?php echo $lang['login']; ?></a>
 	        </li>
 	        <li class="header-nav__navigation-item">
-	          <a class="header-nav__navigation-link header-nav__navigation-link--outline" href="register.php"><?php echo $lang['signup']; ?> <?php echo $lang['for']; ?> <?php echo $lang['free']; ?></a>
+	          <a class="header-nav__navigation-link header-nav__navigation-link--outline" href="register.php"><?php echo $lang['signup']; ?></a>
 	        </li>
 		 <?php } ?>              		 	
-
+<!--
               <li class="dropdown user user-menu">
-                <!-- Menu Toggle Button -->
+                
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   	<?php echo $lang['languages']; ?>
                 </a>
@@ -142,7 +147,7 @@ $test = $_SERVER["REQUEST_URI"];
 					<li class="m_2"><a href="<?php echo $test; ?>?lang=spanish">Spanish</a></li>
         		</ul>
               </li>
-
+-->
 
               	        
 	      </ul>

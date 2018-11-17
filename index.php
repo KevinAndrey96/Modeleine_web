@@ -59,7 +59,7 @@ if(!file_exists('core/frontinit.php')){
   align-items: center;
   text-align: center;"
 	 <?php } ?>>
-      <div class="container">
+      <div class="container" >
 	   
         <div class="row">
 		<div class="banner-content">
@@ -67,12 +67,16 @@ if(!file_exists('core/frontinit.php')){
        	<?php if($show_downtitle === '1'): ?>
 		<h3 class="banner-description"><?php echo $down_title; ?></h3>
        	<?php endif; ?> 
-		
-		 <form action="searchpage.php" method="get" class="list-s">
+		<!--OPculto-->
+		 <!--<form action="searchpage.php" method="get" class="list-s">
 		  <button>Buscar</button>
 		  <input type="text" class="form-control" name="searchterm" placeholder="<?php echo $searchterm; ?>" value=""/>   
 		  <div class="clearfix"></div>
-		 </form>
+		 </form>-->
+		 <br><br>
+		 <center><button class="btn btn-info" style="background-color: #009bdb;" onclick="window.location.href='/register.php'">Realiza tu pre-registro aquí</button></center>
+
+
 		<!--<p><?php echo $lang['trending']; ?> <?php echo $lang['services']; ?>:
         <?php
 				
@@ -117,7 +121,7 @@ if(!file_exists('core/frontinit.php')){
       <!-- ==============================================
 	 Categories Section
 	 =============================================== -->
-	 <section class="categories">
+	 <section style="display: none" class="categories"><!--OPculto-->
 	  <div class="container">
        <div class="row">
        	
@@ -188,7 +192,7 @@ if(!file_exists('core/frontinit.php')){
 	 <!-- ==============================================
 	 Stats Section
 	 =============================================== -->
-	 <section class="stats">
+	 <section class="stats" style="display: none;"><!--OPculto-->
 	  <div class="container">
        <div class="row">
        	
@@ -252,7 +256,7 @@ if(!file_exists('core/frontinit.php')){
 	 <!-- ==============================================
 	 Testimonies Section
 	 =============================================== -->		  
-	 <section class="testimonies">
+	 <section class="testimonies" style="display: none;"><!--OPculto-->
 	  <div class="container">
        <div class="row">
        	
@@ -335,8 +339,8 @@ if(!file_exists('core/frontinit.php')){
 	 </section><!-- /w -->		   	 
 	 
      <!-- Include footer.php. Contains footer content. -->
- 	 <?php include ('includes/template/footer.php'); ?> 
-	 
+     <!--
+ 	 <?php include ('includes/template/footer.php'); ?> <!--OPculto-->
      <a id="scrollup">Scroll</a>
 	 
      <!-- ==============================================

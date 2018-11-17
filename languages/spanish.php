@@ -23,15 +23,15 @@ $lang['hasError'] = '�Error!';
 $lang['noError'] = '��xito!';
 
 // Login Error
-$lang['login_error'] = 'Usuario o contrase�a invalido.';
+$lang['login_error'] = 'Usuario o contraseña invalido.';
 // Forgot Error
 $lang['forgot_error'] = 'Correo electr�nico no existe';
 $lang['forgot_error_one'] = 'Hemos enviado un correo electr�nico a';
-$lang['forgot_error_two'] = 'Haga clic en el enlace de restablecimiento de contrase�a en el correo electr�nico para generar una nueva contrase�a.';
+$lang['forgot_error_two'] = 'Haga clic en el enlace de restablecimiento de contraseña en el correo electr�nico para generar una nueva contraseña.';
 // Reset Error
-$lang['reset_error'] = 'Est�s usando la misma contrase�a que antes';
+$lang['reset_error'] = 'Est�s usando la misma contraseña que antes';
 $lang['notoken_error'] = 'Token no coincidente o Token no v�lido';
-$lang['reset_success'] = 'Actualiz� correctamente su contrase�a. Ahora puede iniciar sesi�n.';
+$lang['reset_success'] = 'Actualiz� correctamente su contraseña. Ahora puede iniciar sesión.';
 // Has Error
 $lang['has_Error'] = 'Comprueba si has llenado todos los campos con informaci�n v�lida y vuelve a intentarlo. Gracias.';
 // Saved Success
@@ -53,29 +53,29 @@ $lang['image_select'] = 'Por favor, seleccione la imagen! Vuelve a intentarlo.';
 $lang['image_profile_format'] = 'Formatos de archivo no v�lidos ..! Vuelve a intentarlo. Los formatos aceptados son jpg, png, gif, bmp y el tama�o debe ser 280 * 280 ';
 $lang['image_format'] = 'Formatos de archivo no v�lidos ..! Vuelve a intentarlo. Los formatos aceptados son jpg, png, gif, bmp y el tama�o debe ser 1920 * 1280';
 $lang['image_upload'] = 'Failed to upload Image. Please try again.';
-$lang['pass_Error'] = 'Su contrase�a actual es incorrecta.';
+$lang['pass_Error'] = 'Su contraseña actual es incorrecta.';
 
 // Navbar
 $lang['languages'] = 'Idiomas';
 
 // Home Page + Form Fields
-$lang['login'] = 'Iniciar sesi�n';
+$lang['login'] = 'Iniciar sesión';
 $lang['username'] = 'Nombre de usuario';
-$lang['password'] = 'Contrase�a';
-$lang['confirm_password'] = 'Confirmar contrase�a';
+$lang['password'] = 'Contraseña';
+$lang['confirm_password'] = 'Confirmar contraseña';
 $lang['register'] = 'Registro';
 $lang['full_name'] = 'Nombre completo';
 $lang['email'] = 'Email';
-$lang['forgot_password'] = '�Se te olvid� tu contrase�a?';
-$lang['reset_password'] = 'Restablecer la contrase�a';
-$lang['remember_me'] = 'Recu�rdame';
+$lang['forgot_password'] = '¿Se te olvidó tu contraseña?';
+$lang['reset_password'] = 'Restablecer la contraseña';
+$lang['remember_me'] = 'Recuérdame';
 $lang['submit'] = 'Enviar';
 
 // Form Fields
 $lang['name'] = 'Nombre';
-$lang['phone'] = 'Tel�fono';
-$lang['phone_contact'] = 'Contacto telef�nico';
-$lang['address'] = 'Direcci�n';
+$lang['phone'] = 'Teléfono';
+$lang['phone_contact'] = 'Contacto telefónico';
+$lang['address'] = 'Dirección';
 $lang['date_added'] = 'Fecha Agregada';
 $lang['date'] = 'Fecha';
 $lang['added'] = 'Agregada';
@@ -96,10 +96,10 @@ $lang['mark_as_done'] = '�Marcar como hecho!';
 $lang['update_results'] = 'Lo que hice hoy y los resultados que obtuve';
 $lang['update-problems'] = 'Problemas o Desaf�os que surgieron.';
 $lang['update_questions'] = 'Preguntas que tengo.';
-$lang['password'] = 'Contrase�a';
-$lang['current_password'] = 'contrase�a actual';
-$lang['new_password'] = 'nueva contrase�a';
-$lang['confirm_new_password'] = 'Confirmar nueva contrase�a';
+$lang['password'] = 'Contraseña';
+$lang['current_password'] = 'contraseña actual';
+$lang['new_password'] = 'nueva contraseña';
+$lang['confirm_new_password'] = 'Confirmar nueva contraseña';
 $lang['user_id'] = 'Identidad de usuario';
 $lang['joined'] = 'Unido';
 $lang['user_type'] = 'Tipo de usuario';
@@ -259,7 +259,7 @@ $lang['it'] = 'eso';
 $lang['works'] = 'Trabajos';
 $lang['faq'] = 'Preguntas más frecuentes';
 $lang['contact'] = 'contacto';
-$lang['signup'] = 'Regístrate';
+$lang['signup'] = 'Regístrate gratis';
 $lang['header'] = 'Encabezamiento';
 $lang['featured'] = 'Destacados';
 $lang['page'] = 'Página';
@@ -521,7 +521,7 @@ $lang['settings'] = 'Ajustes';
 $lang['site'] = 'Sitio';
 $lang['mail'] = 'Correo';
 $lang['profile'] = 'Perfil';
-$lang['logout'] = 'Cerrar sesi�n';
+$lang['logout'] = 'Cerrar sesión';
 
 // General
 $lang['list'] = 'Lista';
@@ -597,7 +597,7 @@ $lang['site_name'] = 'Este es el nombre del sitio.';
 $lang['site_tagline'] = 'Este es el lema del sitio.';
 $lang['site_url'] = 'Este es el enlace URL de su sitio.';
 $lang['site_email'] = 'Este es el correo electr�nico del sitio.';
-$lang['site_email_pass'] = 'Esta es la contrase�a del correo electr�nico del sitio.';
+$lang['site_email_pass'] = 'Esta es la contraseña del correo electr�nico del sitio.';
 $lang['site_description'] = 'Esta es la meta descripci�n del sitio.';
 $lang['site_keywords'] = 'Esta es la meta meta palabras clave.';
 $lang['site_author'] = 'Este es el meta-autor del sitio.';
@@ -606,7 +606,7 @@ $lang['site_author'] = 'Este es el meta-autor del sitio.';
 $lang['database_host'] = 'Host de base de datos';
 $lang['database_name'] = 'Nombre de la base de datos';
 $lang['database_username'] = 'Nombre de usuario de la base de datos';
-$lang['database_password'] = 'Contrase�a de base de datos';
+$lang['database_password'] = 'Contraseña de base de datos';
 $lang['install'] = 'Instalar';
 $lang['go_back'] = 'Regresa';
 $lang['go_home_page'] = 'Haga clic aqu� para ir a la p�gina principal';

@@ -10,6 +10,7 @@
  * Core: Genral Layout Style
  * -------------------------
  */
+ /*#009bdb*/
 html,
 body {
   min-height: 100%;
@@ -17,6 +18,9 @@ body {
 .layout-boxed html,
 .layout-boxed body {
   height: 100%;
+}
+.azul{
+  background-color: #009bdb !important;
 }
 body {
   -webkit-font-smoothing: antialiased;
@@ -1595,7 +1599,7 @@ PANELS CONFIGURATIONS
 }
 
 .bg-mint {
-  background-color: #1AB394 !important;
+  background-color: #009bdb !important;
   color: #fff;
 }
 
@@ -1606,8 +1610,8 @@ PANELS CONFIGURATIONS
 }
 .label-success{
 	background: none !important; 
-	color: #1ab394 !important;
-	border: 1px solid #1AB394;
+	color: #009bdb !important;
+	border: 1px solid #009bdb;
 }
 .bg-navy {
   background-color: #001f3f !important;
@@ -2249,8 +2253,8 @@ span.round-tab:hover {
 }
 .btn-success{
 	color: #fff !important;
-	background-color: #1ab394 !important;
-	border-color: #1ab394 !important;
+	background-color: #009bdb !important;
+	border-color: #009bdb !important;
 }
 /*Comment Button*/
 .comment-btn {
@@ -2387,7 +2391,7 @@ float: right;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 3px;
-  background: #05cb95; 
+  background: #009bdb; 
   color: #fff;
 }
 .btn-kafe:hover{
@@ -2476,7 +2480,7 @@ float: right;
 
 /*Progress Bar*/
 .progress-bar-success {
-    background-color: #1ab394 !important;
+    background-color: #009bdb !important;
 }
 .progress.progress-xxs {
     height: 2px;
@@ -2575,7 +2579,7 @@ float: right;
 }
 
 .material-switch > .label-mint{
-  background: #05CB95;
+  background: #009bdb;
 }
 
 /* ------------------------------------------------------------------- */

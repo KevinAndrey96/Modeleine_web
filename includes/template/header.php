@@ -86,6 +86,7 @@ if ($q2->count()) {
 		<meta name="description" content="<?php echo escape($description); ?>">
         <meta name="keywords" content="<?php echo escape($keywords); ?>">
         <meta name="author" content="<?php echo escape($author); ?>">
+        
 		
 		<!-- ==============================================
 		Favicons

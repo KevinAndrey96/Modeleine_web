@@ -84,7 +84,7 @@ nav {
     display: inline;
 } 
 #header .header-nav__navigation-item.active{
-	border-bottom: 5px solid #1AB394;
+	border-bottom: 5px solid #009bdb;
 }  
 #header.navbar--white .header-nav__navigation-link {
     border: 1px solid #fff;
@@ -110,12 +110,12 @@ nav {
     background-color: #fff;
 }
 #header.navbar--white .header-nav__navigation-link--outline {
-	color: #1ab394 !important;
-    border-color: #1ab394;
+	color: #009bdb !important;
+    border-color: #009bdb;
 }
 #header.navbar--white .header-nav__navigation-link--outline:hover {
     color: #fff !important;
-    background: #1ab394 !important;
+    background: #009bdb !important;
 }
 .navbar-nav > li > a {
     padding-top: 10px;
@@ -441,8 +441,8 @@ nav {
 }
 .btn-success{
 	color: #fff !important;
-	background-color: #1ab394 !important;
-	border-color: #1ab394 !important;
+	background-color: #009bdb !important;
+	border-color: #009bdb !important;
 }
 .btn-success:hover{
 	color: #fff !important;
@@ -695,14 +695,14 @@ nav {
 
 .categories a:hover {
 	text-decoration:none;
-	background: #1ABC9C !important;
+	background: #009bdb !important;
 	color: #fff !important;
 }
 /* ------------------------------------------------------------------- */
 /* Testimonies Section
 ---------------------------------------------------------------------- */
 .testimonies{    
-  background-color: #1AB394;
+  background-color: #009bdb;
   padding-top: 20px;
   padding-bottom: 50px;
 }  
