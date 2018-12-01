@@ -287,7 +287,7 @@ if ($query->count()) {
 					<div class="col-lg-10 col-xs-12"> 
 					 <h4><a href="jobpost.php?title='. escape($row->slug) .'">'. escape($row->title) .'</a></h4>
 					 <h5><a href="client.php?a=overview&id='. escape($row->clientid) .'" 
-					 style="text-decoration: none !important; color: #05CB95 !important;">
+					 style="text-decoration: none !important; color: #009bdb !important;">
 					 '. escape($name1) .'</a> <small>@'. escape($username1) .'</small></h5>
 					</div><!-- /.col-lg-10 -->
 					
@@ -435,7 +435,7 @@ if ($query->count()) {
 					<div class="col-lg-10 col-xs-12"> 
 					 <h4><a href="jobpost.php?title=<?php echo escape($r->slug); ?>"><?php echo escape($r->title) ?></a></h4>
 					 <h5><a href="freelancer.php?a=overview&id=<?php echo escape($r->freelancerid); ?>" 
-					 style="text-decoration: none !important; color: #05CB95 !important;">
+					 style="text-decoration: none !important; color: #009bdb !important;">
 					 <?php echo escape($name1) ?></a> <small>@<?php echo escape($username1) ?></small></h5>
 					</div><!-- /.col-lg-10 -->
 					

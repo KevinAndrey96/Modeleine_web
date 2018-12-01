@@ -991,7 +991,7 @@ nav {
 
 .jobpost .label-success {
   font-family: 'Varela Round', sans-serif;
-  background: #05cb95 !important; 
+  background: #009bdb !important; 
   margin-bottom: 5px;
   font-size: 10px;
   color: #fff !important;
@@ -1281,7 +1281,7 @@ nav {
 
 .overview .label-success {
   font-family: 'Varela Round', sans-serif;
-  background: #05cb95 !important; 
+  background: #009bdb !important; 
   margin-bottom: 5px;
   font-size: 10px;
   color: #fff !important;
@@ -1303,7 +1303,7 @@ nav {
   box-shadow: none;
 }
 .overview .progress-bar-primary.progress-bar-mint{
-  background: #05CB95 !important; 
+  background: #009bdb !important; 
 }
 
 .overview .chart {

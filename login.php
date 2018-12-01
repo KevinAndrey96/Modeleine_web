@@ -67,7 +67,7 @@ if (Input::exists()) {
 			 $login = $freelancer->login(Input::get('email'), Input::get('password'), $remember);
 			 
 			 if ($login === true) {
-	           Redirect::to('Freelancer/');
+	           Redirect::to('Model/');
 			 }else {
 			   $hasError = true;
 			 }
@@ -180,11 +180,11 @@ $test = $_SERVER["REQUEST_URI"];
 	            <?php echo $lang['jobs']; ?>
 	          </a>
 	        </li>-->
-	        <!--<li class="header-nav__navigation-item <?php echo $active = ($basename == 'services') ? ' active' : ''; echo $active = ($editname == 'freelancer.php?a='. Input::get('a').'&id='. Input::get('id').'') ? ' active' : ''; ?>">
+	        <li class="header-nav__navigation-item <?php echo $active = ($basename == 'services') ? ' active' : ''; echo $active = ($editname == 'freelancer.php?a='. Input::get('a').'&id='. Input::get('id').'') ? ' active' : ''; ?>">
 	          <a href="services.php" class="header-nav__navigation-link ">
 	            <?php echo $lang['services']; ?>
 	          </a>
-	        </li>-->
+	        </li>
 	        <!--<li class="header-nav__navigation-item <?php echo $active = ($basename == 'about') ? ' active' : ''; ?>">
 	          <a href="about.php" class="header-nav__navigation-link ">
 	            <?php echo $lang['about']; ?>
@@ -258,7 +258,7 @@ $test = $_SERVER["REQUEST_URI"];
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <!-- The user image in the navbar-->
             	<?php // echo $profileimg; ?>
-                  <img src="Freelancer/<?php echo escape($freelancer->data()->imagelocation); ?>" class="user-image" alt="User Image"/>
+                  <img src="Model/<?php echo escape($freelancer->data()->imagelocation); ?>" class="user-image" alt="User Image"/>
                 
                   <!-- hidden-xs hides the username on small devices so only the image appears. -->
                   <span class="hidden-xs">
@@ -266,9 +266,9 @@ $test = $_SERVER["REQUEST_URI"];
                   </span>
                 </a>
                 <ul class="dropdown-menu">
-						<li class="m_2"><a href="Freelancer/index.php"><i class="fa fa-dashboard"></i><?php echo $lang['dashboard']; ?></a></li>
-						<li class="m_2"><a href="Freelancer/profile.php?a=profile"><i class="fa fa-user"></i><?php echo $lang['view']; ?> <?php echo $lang['profile']; ?></a></li>
-						<li class="m_2"><a href="Freelancer/logout.php"><i class="fa fa-lock"></i> <?php echo $lang['logout']; ?></a></li>	
+						<li class="m_2"><a href="Model/index.php"><i class="fa fa-dashboard"></i><?php echo $lang['dashboard']; ?></a></li>
+						<li class="m_2"><a href="Model/profile.php?a=profile"><i class="fa fa-user"></i><?php echo $lang['view']; ?> <?php echo $lang['profile']; ?></a></li>
+						<li class="m_2"><a href="Model/logout.php"><i class="fa fa-lock"></i> <?php echo $lang['logout']; ?></a></li>	
         		</ul>
               </li>
 		<?php } else { ?>		 		        

@@ -120,21 +120,23 @@ if (Input::exists()) {
 				}				      	
 	          
 	      } else {
+
 			if($membershipid != ''){
-		  	  	$freelancer = new Freelancer();
-		  
+
+		  	  	$freelancer = new Freelancer();		  
 				$remember = (Input::get('remember') === 'on') ? true : false;
-				$salt = Hash::salt(32);  
+				//$salt = Hash::salt(32);
+				//$salt = "123456";
 				$imagelocation = 'uploads/default.png';
 				$bgimage = 'uploads/bg/default.jpg';
 				$freelancerid = uniqueid(); 
+
 				try{
-					
 				  $freelancer->create(array(
 				   'freelancerid' => $freelancerid,
 				   'username' => Input::get('username'),
-				   'password' => Hash::make(Input::get('password'), $salt),
-				   'salt' => $salt,
+				   'password' => Hash::make(Input::get('password')/*, $salt*/),
+				   'salt' => "",
 				   'name' => Input::get('name'),
 		           'email' => Input::get('email'),
 				   'imagelocation' => $imagelocation,
@@ -155,10 +157,13 @@ if (Input::exists()) {
 			   }
 					
 				}catch(Exception $e){
+
 				 die($e->getMessage());	
 				}	
 	          } else {
+
 				  $memError = true;
+
 				}
 	      }
        
@@ -273,7 +278,7 @@ $test = $_SERVER["REQUEST_URI"];
 	            <?php echo $lang['jobs']; ?>
 	          </a>
 	        </li>-->
-	        <li class="header-nav__navigation-item <?php echo $active = ($basename == 'services') ? ' active' : ''; echo $active = ($editname == 'freelancer.php?a='. Input::get('a').'&id='. Input::get('id').'') ? ' active' : ''; ?>">
+	        <li class="header-nav__navigation-item <?php echo $active = ($basename == 'services') ? ' active' : ''; echo $active = ($editname == 'model.php?a='. Input::get('a').'&id='. Input::get('id').'') ? ' active' : ''; ?>">
 	          <a href="services.php" class="header-nav__navigation-link ">
 	            <?php echo $lang['services']; ?>
 	          </a>
@@ -465,7 +470,7 @@ $test = $_SERVER["REQUEST_URI"];
 		} ?>
 	     	
 		  <div class="form-sign">
-		   <form method="post">
+		   <form method="post" action="">
 		    <div class="form-head">
 			 <h3><?php echo $lang['register']; ?></h3>
 			</div><!-- /.form-head -->
@@ -474,7 +479,7 @@ $test = $_SERVER["REQUEST_URI"];
 
             <!-- List group -->
             <ul class="list-group">
-             <li class="list-group-item" style="display: none;">
+             <li class="list-group-item">
               <div class="material-switch pull-center">
 	           <span class="pull-left"><?php echo $lang['freelancer']; ?></span>
                 <input id="someSwitchOptionDefault" name="user_type" type="checkbox"/>

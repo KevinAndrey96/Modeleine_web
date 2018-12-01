@@ -63,7 +63,7 @@ if (Input::exists()) {
                 $test = $_SERVER['HTTP_HOST'];
 				$email = Input::get('email');
 				$message= "
-					   <p>Hello , $email</p>
+					   <p>Hola , $email</p>
 					   <br /><br />
 					   <p>We got requested to reset your password, if you do this then just click the following link to reset your password, if not just ignore this email,</p>
 					   <br /><br />
@@ -203,7 +203,8 @@ $test = $_SERVER["REQUEST_URI"];
      Navigation Section
      =============================================== -->
 	<header id="header" headroom="" role="banner" tolerance="5" offset="700" class="navbar navbar-fixed-top navbar--white ng-isolate-scope headroom headroom--top">
-	  <nav role="navigation">
+		<?php include ('includes/template/navigation.php'); ?> 
+	  <nav role="navigation" style="display: none;">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle header-nav__button" data-toggle="collapse" data-target=".navbar-main">
 	        <span class="icon-bar header-nav__button-line"></span>
@@ -422,7 +423,7 @@ $test = $_SERVER["REQUEST_URI"];
             <div class="form-body">
 
             <!-- List group -->
-            <ul class="list-group">
+            <ul class="list-group" style="display: none;">
              <li class="list-group-item">
               <div class="material-switch pull-center">
 	           <span class="pull-left"><?php echo $lang['freelancer']; ?></span>

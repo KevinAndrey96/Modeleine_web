@@ -77,7 +77,7 @@ if(!file_exists('core/frontinit.php')){
 		 <center><button class="btn btn-info" style="background-color: #009bdb;" onclick="window.location.href='/register.php'">Realiza tu pre-registro aquí</button></center>
 
 
-		<!--<p><?php echo $lang['trending']; ?> <?php echo $lang['services']; ?>:
+		<p><?php echo $lang['trending']; ?> <?php echo $lang['services']; ?>:
         <?php
 				
 	        $dbc = mysqli_connect(Config::get('mysql/host'), Config::get('mysql/username'), Config::get('mysql/password'), Config::get('mysql/db')) OR die('Could not connect because:' .mysqli_connect_error());
@@ -111,7 +111,7 @@ if(!file_exists('core/frontinit.php')){
 
 			 }	
              echo $string = implode(',', $lists);
-        ?>			</p>-->
+        ?>			</p>
         
 		</div>
         </div><!--./row -->

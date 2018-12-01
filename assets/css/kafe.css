@@ -684,7 +684,7 @@ header .form-row a:hover {
 }
 
 header .form-row .radio-left a:hover { 
-  background: #0de5ab !important; 
+  background: #009bdb !important; 
 }
 
 header .form-row .radio-right a:hover { 
@@ -1832,7 +1832,7 @@ html[xmlns] .flexslider .slides {
 
 .jobpost .label-success {
   font-family: 'Varela Round', sans-serif;
-  background: #05cb95 !important; 
+  background: #009bdb !important; 
   margin-bottom: 5px;
   font-size: 10px;
   color: #fff !important;
@@ -2121,7 +2121,7 @@ html[xmlns] .flexslider .slides {
 
 .overview .label-success {
   font-family: 'Varela Round', sans-serif;
-  background: #05cb95 !important; 
+  background: #009bdb !important; 
   margin-bottom: 5px;
   font-size: 10px;
   color: #fff !important;
@@ -2143,7 +2143,7 @@ html[xmlns] .flexslider .slides {
   box-shadow: none;
 }
 .overview .progress-bar-primary.progress-bar-mint{
-  background: #05CB95 !important; 
+  background: #009bdb !important; 
 }
 
 .overview .chart {
@@ -2803,7 +2803,7 @@ a.play span:hover{
 }
 
 .signup .item .text-mint {
-  color: #05cb95;
+  color: #009bdb;
 }
 
 .signup .item h4 {
@@ -2831,7 +2831,7 @@ a.play span:hover{
   left: 0px;
   padding: 13px 31px;
   color: #fff;
-  background: #05cb95; 
+  background: #009bdb; 
   letter-spacing: 1px; 
 }
 
@@ -3503,8 +3503,8 @@ a.a-body:hover{
 .blog .page .pagination > .disabled > span,
 .blog .page .pagination > .disabled > span:focus,
 .blog .page .pagination > .disabled > span:hover {
-  background: #05cb95 !important;
-  border-color: #05cb95 !important;
+  background: #009bdb !important;
+  border-color: #009bdb !important;
 }
 
 .blog .page .pagination > .active > a,
@@ -3525,7 +3525,7 @@ a.a-body:hover{
   width: 40px;
   height: 40px;
   margin: 0 5px;
-  background: #05cb95;
+  background: #009bdb;
   border-radius: 0px;
 }
 

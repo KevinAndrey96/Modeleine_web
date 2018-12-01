@@ -550,7 +550,7 @@ nav {
   height: 57px; 
   border: 0; 
   border-radius: 29px; 
-  background: #05cb95; 
+  background: #009bdb; 
   font-family: 'Varela Round', sans-serif;
   font-weight: 700;
   font-size: 14px; 
@@ -561,7 +561,7 @@ nav {
 }
 
 .form-btn:hover { 
-  background: #0de5ab; 
+  background: #009bdb; 
 }
 
 .form-sign .form-foot a.more-link { 
@@ -654,7 +654,7 @@ nav {
 }
 
 .material-switch > .label-success{
-  background: #05CB95;
+  background: #009bdb;
 }
 
 
