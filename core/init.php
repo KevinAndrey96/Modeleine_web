@@ -9,9 +9,9 @@ $GLOBALS['config'] = array(
   'mysql' => array(
     //'host' => '104.248.228.108',
     'host' => 'localhost',
-    'username' => 'modelein_admin',
-    'password' => 'importante10',
-    'db' => 'modelein_bd'
+    'username' => 'modelein_app',
+    'password' => 'importante10@',
+    'db' => 'modelein_app'
   ),
   'remember' => array(
     'cookie_name' => 'hash',
